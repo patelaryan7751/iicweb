@@ -489,6 +489,32 @@ section {
   font-family: lem, Poppins, sans-serif;
   color: #151515
 }
+.section-title h3 {
+  margin: 7px 0 10px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: lem, Poppins, sans-serif;
+  color: #151515
+}
+@media (max-width: 600px) {
+  .section-title p {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: lem, Poppins, sans-serif;
+    color: #151515
+  }
+  .section-title h3 {
+    margin: 7px 0 7px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: lem, Poppins, sans-serif;
+    color: #151515
+  }
+}
 
 .about .content h3 {
   font-weight: 700;
